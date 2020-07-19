@@ -7,7 +7,20 @@
 # while 1800, 1900, 2100, 2200, 2300, and 2500 are not the leap years.
 
 year = int(input("Yılı giriniz :"))
-leap_year = ((year % 4 == 0) and (year % 100 != 0)) or (year % 400 == 0)
-result = (leap_year == True)*'artık yıldır.' + (leap_year == False)*'artık yıl değildir.'
 
-print(f"girdiğiniz *{year:^8}* senesi {result:^16}!")
+if ((year % 4 == 0) and (year % 100 != 0)) or (year % 400 == 0):
+    print(f"girdiğiniz *{year:^8}* senesi artık yıldır.")
+else:
+    print(f"girdiğiniz *{year:^8}* senesi artık yıl değildir.")
+    
+
+# year = int(input("Yılı giriniz :"))
+# leap_year = ((year % 4 == 0) and (year % 100 != 0)) or (year % 400 == 0)
+# result = (leap_year == True)*'artık yıldır.' + (leap_year == False)*'artık yıl değildir.'
+
+# print(f"girdiğiniz *{year:^8}* senesi {result:^16}!")
+
+
+
+
+
