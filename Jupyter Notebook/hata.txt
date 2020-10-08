@@ -1,0 +1,12 @@
+
+
+hasan,name 'a' is not defined
+kemal,name 'a' is not defined
+fff,name 'a' is not defined
+,name 'a' is not defined
+,name 'a' is not defined
+ley,name 'a' is not defined
+naber,name 'a' is not defined
+dfdsf,division by zero
+ghjhgj,invalid literal for int() with base 10: 'beş'
+ghjgh,invalid literal for int() with base 10: 'beş'
