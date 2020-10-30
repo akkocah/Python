@@ -9,7 +9,7 @@ while day <7:
 print("your capital reach " + str(round(capital,2)) + "now")
 print(f"Your capital reach {round(capital,2)}$ now.")
 
-money = 10000
+money = 1000
 time_periods = 7
 daily_profit = 0.07
 x = 0
